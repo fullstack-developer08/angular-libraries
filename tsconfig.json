@@ -1,0 +1,50 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "paths": {
+      "angular-draggable": [
+        "dist/angular-draggable/angular-draggable",
+        "dist/angular-draggable"
+      ],
+      "angular11-spinner": [
+        "dist/angular11-spinner/angular11-spinner",
+        "dist/angular11-spinner",
+        "dist/angular11-spinner/angular11-spinner",
+        "dist/angular11-spinner"
+      ],
+      "sidenav": [
+        "dist/sidenav/sidenav",
+        "dist/sidenav"
+      ],
+      "spinner": [
+        "dist/spinner/spinner",
+        "dist/spinner"
+      ]
+    },
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
