@@ -1,15 +1,34 @@
 # angular-draggable
 
 
-## Build
+## How to use
 
-Run `ng build angular-draggable --prod` to build the project. The build artifacts will be stored in the `dist/` directory.
+Add the `AngularDraggableModule` module to root module or any lazy loaded module where you want to use drag and drop feature.
 
-## Publishing
+```javascript
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+import { AngularDraggableModule } from 'angular-draggable';
 
-After building your library with `ng build angular-draggable`, go to the dist folder `cd dist/angular-draggable` and run `npm publish`.
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    AngularDraggableModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+```
 
-## Running unit tests
+Add the `draggable` directive to any element.
 
-Run `ng test angular-draggable` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```html
+<div class="userForm" draggable>
+</div>
+```
 
