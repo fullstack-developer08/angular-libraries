@@ -1,6 +1,6 @@
-# Amgular11 Spinner
+# spinner
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+
 
 ## Add Module
 
@@ -17,5 +17,5 @@ import { SpinnerModule } from 'angular11-spinner';
 
 ## Build again your project for dev
 
-`npm start`
+`npm start` or `ng start`
 
