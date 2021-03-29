@@ -1,8 +1,5 @@
 # angular-draggable
 
-Install library in any version of angular2+.
-
-`npm install angular11-draggable`
 
 ## Build
 
